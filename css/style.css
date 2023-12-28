@@ -726,6 +726,11 @@ margin-bottom: 60px;
     padding: 0 50px;
 }
 
+
+
+
+/*Responsive in media query*/
+
 @media (max-width:1299px){
     .aside{
         left: -270px;
@@ -772,11 +777,7 @@ margin-bottom: 60px;
     }
 }
 
-@media (max-width:767px){
-    .skill-percent{
-    margin-left: 40px;
-    }
-}
+
 
 @media (max-width:450px){
     .home-img::after {
@@ -787,5 +788,9 @@ margin-bottom: 60px;
     }
     .home .home-img img {
         height: 260px
+    }
+    .skill-percent{
+
+    left: 100px;
     }
 }
