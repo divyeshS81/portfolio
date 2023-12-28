@@ -751,14 +751,7 @@ margin-bottom: 60px;
    }
 
 
-   .home-img::after {
-   
-    
-    right: -50px;
-    bottom: 5%;
-   
-
-}
+ 
 
 
 
@@ -787,5 +780,14 @@ margin-bottom: 60px;
 @media (max-width:767px){
     .skill-percent{
     margin-left: 40px;
+    }
+}
+
+@media (max-width:550px){
+    .home-img::after {  
+    
+        right: -50px;
+        bottom: 5%;
+       
     }
 }
