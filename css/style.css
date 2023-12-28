@@ -750,11 +750,6 @@ margin-bottom: 60px;
     max-width: 50%;
    }
 
-
- 
-
-
-
     .home .home-info
     {
         flex: 0 0 50%;
@@ -783,11 +778,14 @@ margin-bottom: 60px;
     }
 }
 
-@media (max-width:550px){
-    .home-img::after {  
-    
-        right: -50px;
-        bottom: 5%;
-       
+@media (max-width:450px){
+    .home-img::after {
+
+         right: -40px;
+        bottom: 400px;
+     
+    }
+    .home .home-img img {
+        height: 260px
     }
 }
