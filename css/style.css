@@ -749,11 +749,18 @@ margin-bottom: 60px;
     flex:0 0 50%;
     max-width: 50%;
    }
+
+
+   .home-img::after {
    
-    .home .home-img
-    {
-        display: none;
-    }
+    
+    right: -50px;
+    bottom: 5%;
+   
+
+}
+
+
 
     .home .home-info
     {
@@ -779,6 +786,6 @@ margin-bottom: 60px;
 
 @media (max-width:767px){
     .skill-percent{
-    margin-left: 20px;
+    margin-left: 40px;
     }
 }
