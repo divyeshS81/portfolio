@@ -776,3 +776,9 @@ margin-bottom: 60px;
         max-width: 100%;
     }
 }
+
+@media (max-width:767px){
+    .skill-percent{
+    margin-left: 20px;
+    }
+}
