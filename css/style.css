@@ -725,9 +725,19 @@ margin-bottom: 60px;
     height: 50px;
     padding: 0 50px;
 }
-
-
-
+form input, form textarea{
+    border: 1px solid var(--bg-black-50);
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 25px;
+    width: 1000px;
+}
+#message{
+    height: 180px;
+}
 
 /*Responsive in media query*/
 
@@ -796,5 +806,9 @@ margin-bottom: 60px;
     .info-item span{
         font-size: 13px;
     }
+    form input, form textarea{
+        width: 330px;
+    }
+
 
 }
