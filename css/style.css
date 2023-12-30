@@ -738,7 +738,13 @@ form input, form textarea{
 #message{
     height: 180px;
 }
-
+.portfolio-img{
+    height: 250px;
+}
+.portfolio-img iframe{
+    height: 100%;
+    width: 100%;
+}
 /*Responsive in media query*/
 
 @media (max-width:1299px){
