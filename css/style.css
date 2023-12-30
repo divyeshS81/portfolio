@@ -810,11 +810,12 @@ form input, form textarea{
     left: 100px;
     }
     .info-item span{
-        font-size: 13px;
+        font-size: 12px;
     }
     form input, form textarea{
         width: 300px;
     }
+    
 
 
 }
