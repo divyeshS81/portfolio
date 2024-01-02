@@ -815,5 +815,12 @@ form input, form textarea{
     form input, form textarea{
         width: 300px;
     }
+    .home-img::after {
+display: none;
     
+    }
+    
+    .home-img::before {
+      display: none;   
+    } 
 }

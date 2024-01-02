@@ -16,10 +16,18 @@
         form.classList.add('was-validated')
       }, false)
     })
-  })()
+  })
 
 
 
 
+//   document.addEventListener("DOMContentLoaded", function() {
+//     document.getElementById("form").addEventListener("submit", function(event) {
+//         event.preventDefault(); // Prevent the default form submission
 
-  
+//         // Perform actions with the submitted data (send to server, process, etc.)
+
+//         // Clear the form after submission
+//         this.reset();
+//     });
+// });
