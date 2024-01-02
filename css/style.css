@@ -728,10 +728,11 @@ margin-bottom: 60px;
 form input, form textarea{
     border: 1px solid var(--bg-black-50);
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    font-family: 'poppins'sans-serif;
     font-size: 16px;
     margin: 10px 0;
     padding: 20px;
-    font-weight: 500;
+    font-weight: 700;
     border-radius: 25px;
     width: 1000px;
 }
