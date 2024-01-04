@@ -246,7 +246,7 @@ ul {
     display: block;
 }
 
-.aside .nav li a {
+.aside .nav li a {  
     font-size: 16px;
     font-weight: 600;
     display: block;
@@ -745,6 +745,23 @@ form input, form textarea{
 .portfolio-img iframe{
     height: 100%;
     width: 100%;
+}
+
+
+.contact-info-item a{
+    color: var(--text-black-700);
+}
+
+.info-item a{
+    color: var(--text-black-700);
+}
+
+.education .title {
+    color: var(--text-black-700);
+}
+
+.experience .title{
+    color: var(--text-black-700);
 }
 /*Responsive in media query*/
 
