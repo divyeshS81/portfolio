@@ -626,6 +626,18 @@ h3.my-profession {
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
     display: block;
+    position: relative;
+}
+.portfolio .portfolio-item-inner .viewmore-btn a
+{
+    color:var(--skin-color);
+    transition: 0.50s;
+    font-size: 18px;
+    position: absolute;
+}
+.portfolio .portfolio-item-inner .viewmore-btn a:hover
+{
+        border-bottom:1px solid var(--skin-color);
 }
 
 /* contact */
